@@ -1,0 +1,35 @@
+{
+  "name": "gulp-htmlprocessor",
+  "version": "0.1.0",
+  "description": "Process html files at build time to modify them depending on the release environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nesk/gulp-htmlprocessor.git"
+  },
+  "keywords": [
+    "process",
+    "html",
+    "index",
+    "build",
+    "buildtime",
+    "environment",
+    "target",
+    "optimize",
+    "gulpplugin"
+  ],
+  "author": "Johann Pardanaud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nesk/gulp-htmlprocessor/issues"
+  },
+  "homepage": "https://github.com/Nesk/gulp-htmlprocessor",
+  "dependencies": {
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.1",
+    "htmlprocessor": "Nesk/node-htmlprocessor#process-input-content"
+  }
+}
