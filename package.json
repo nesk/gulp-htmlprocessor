@@ -4,7 +4,7 @@
   "description": "Process html files at build time to modify them depending on the release environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -31,5 +31,10 @@
     "gulp-util": "^3.0.1",
     "through2": "^0.6.1",
     "htmlprocessor": "Nesk/node-htmlprocessor#process-input-content"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "mocha": "^1.21.4",
+    "q": "^1.0.1"
   }
 }
