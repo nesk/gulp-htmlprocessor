@@ -1,6 +1,6 @@
 {
   "name": "gulp-htmlprocessor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Process html files at build time to modify them depending on the release environment",
   "main": "index.js",
   "engines": {
