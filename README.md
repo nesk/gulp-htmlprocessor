@@ -6,7 +6,7 @@ This project is a [Gulp](http://gulpjs.com/) implementation of [node-htmlprocess
 
 ## Status
 
-Currently, as of v0.3.3 __every features__ of gulp-processhtml __are supported__.
+Currently, as of v0.3.3 __every features__ of grunt-processhtml __are supported__.
 
 ### Differences
 
